@@ -28,4 +28,7 @@ gem 'spring',        group: :development
 
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'carrierwave'
+gem 'fog'
+gem 'figaro'
 
