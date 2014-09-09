@@ -19,7 +19,7 @@
 
 <p>
   <strong>Website:</strong>
-  <%= @restaurant.website %>
+  <%= link_to @restaurant.website, @restaurant.website %>
 </p>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant), class: "btn btn-link" %> |
